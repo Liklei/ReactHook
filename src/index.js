@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './app/App';
 import * as serviceWorker from './serviceWorker';
+
+console.log("React Hook");
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
