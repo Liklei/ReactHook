@@ -1,5 +1,11 @@
 .App {
     text-align: center;
+    
+}
+ul, li, ol{
+   list-style: none;
+   margin: 0;
+   padding: 0;
 }
 
 .App-logo {
@@ -28,7 +34,20 @@
 .App-link {
     color: #61dafb;
 }
-
+.timer{
+    padding-left: 10px;
+    text-align: left;
+    color: cornflowerblue;
+}
+.list{
+     margin-top: 10px;
+}
+.list li:nth-child(2n){
+    background-color: darkgrey;
+}
+.list li:nth-child(2n+1){
+    background-color: lightblue;
+}
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
